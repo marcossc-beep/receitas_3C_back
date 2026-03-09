@@ -21,3 +21,7 @@ Content-Type: application/json
     "nome": "Kauane",
     "senha": "leaf green"
 }
+
+###
+
+DELETE http://localhost:3000/usuarios/3

@@ -14,11 +14,11 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:3000/usuarios/2
+PUT http://localhost:3000/usuarios/4
 Content-Type: application/json
 
 {
-    "nome": "Kauane",
+    "nome": "Marcos",
     "senha": "leaf green"
 }
 

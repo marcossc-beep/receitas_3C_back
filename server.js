@@ -32,7 +32,9 @@ servidor.post('/usuarios', async (request, reply) => {
         )
     }
 
-    const resultado = await sql.query('INSERT INTO usuario (nome, senha, email) VALUES ($1, $2, $3)', [nome, senha, email])       
+    const resultado = await sql.query(
+        'INSERT INTO usuario (nome, senha, email) VALUES ($1, $2, $3)', 
+        [nome, senha, email])       
     reply.status(201).send({mensagem: "Deu certo!"})
 })
 
